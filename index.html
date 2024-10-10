@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__inner">
+        <a class="header__logo">
+          <!-- Логотип в плохом разрешение только скачивается -->
+          <img
+            alt="Логотип"
+            src="./images/roistat-logo.png"
+            width="110" height="25"
+          >
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Наши предложения
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Цены
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-burger">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-gradient"></div>
+        <img 
+          class="hero-star"
+          alt=""
+          src="./images/hero-star.svg"
+          width="295" height="288" loading="lazy"
+        >
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            <div class="hero__title-line hero__title-line__first"></div>
+            <div class="hero__title-line hero__title-line__second"></div>
+            <span>черная</span>
+            пятница
+            <img 
+              class="hero__sale-img"
+              alt=""
+              src="./images/sale-image.png"
+              width="189" height="138" loading="lazy"
+            >
+          </h1>
+          <div class="hero__offer">
+            <div class="hero__offer-text">
+              Воспользуйтесь выгодными предложениями от Roistat в ноябре*
+            </div>
+            <!-- Открывает модальное окно -->
+            <button type="button" class="open-modal primary-btn hero__offer-btn">
+              <span>
+                Получить выгоду
+              </span>
+              <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 8L22 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 1L23 8L16 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>                
+            </button>
+          </div>
+        </div>
+        <div class="hero__marquee hero__marquee-blue">
+          <div class="hero__marquee-row">
+            <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.027 13.8023L22.8612 29.8178M22.8612 29.8178L26.1896 46.9177M22.8612 29.8178L6.5413 47.1827M22.8612 29.8178L41.8383 26.8617M22.8612 29.8178L27.371 0.867727M22.8612 29.8178L51.6548 38.0006M22.8612 29.8178L16.6966 50.2602M22.8612 29.8178L1.00496 17.7043M22.8612 29.8178L37.6502 13.4128M22.8612 29.8178L6.71833 31.8807M22.8612 29.8178L37.7396 47.7345" stroke="#FE64FA" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.027 13.8023L22.8612 29.8178M22.8612 29.8178L26.1896 46.9177M22.8612 29.8178L6.5413 47.1827M22.8612 29.8178L41.8383 26.8617M22.8612 29.8178L27.371 0.867727M22.8612 29.8178L51.6548 38.0006M22.8612 29.8178L16.6966 50.2602M22.8612 29.8178L1.00496 17.7043M22.8612 29.8178L37.6502 13.4128M22.8612 29.8178L6.71833 31.8807M22.8612 29.8178L37.7396 47.7345" stroke="#FE64FA" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.027 13.8023L22.8612 29.8178M22.8612 29.8178L26.1896 46.9177M22.8612 29.8178L6.5413 47.1827M22.8612 29.8178L41.8383 26.8617M22.8612 29.8178L27.371 0.867727M22.8612 29.8178L51.6548 38.0006M22.8612 29.8178L16.6966 50.2602M22.8612 29.8178L1.00496 17.7043M22.8612 29.8178L37.6502 13.4128M22.8612 29.8178L6.71833 31.8807M22.8612 29.8178L37.7396 47.7345" stroke="#FE64FA" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="52" height="51" viewBox="0 0 52 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.027 13.8023L22.8612 29.8178M22.8612 29.8178L26.1896 46.9177M22.8612 29.8178L6.5413 47.1827M22.8612 29.8178L41.8383 26.8617M22.8612 29.8178L27.371 0.867727M22.8612 29.8178L51.6548 38.0006M22.8612 29.8178L16.6966 50.2602M22.8612 29.8178L1.00496 17.7043M22.8612 29.8178L37.6502 13.4128M22.8612 29.8178L6.71833 31.8807M22.8612 29.8178L37.7396 47.7345" stroke="#FE64FA" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__marquee hero__marquee-yellow">
+          <div class="hero__marquee-row">
+            <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.7612 12.2654L22.3686 29.4508M22.3686 29.4508L23.3835 46.842M22.3686 29.4508L3.87585 44.4807M22.3686 29.4508L41.5705 29.0554M22.3686 29.4508L30.7041 1.36224M22.3686 29.4508L49.8115 41.4055M22.3686 29.4508L13.5292 48.8868M22.3686 29.4508L2.32579 14.527M22.3686 29.4508L39.2159 15.1677M22.3686 29.4508L6.09481 29.3393M22.3686 29.4508L34.721 49.1939" stroke="#8F8FFF" stroke-width="2.4"/>
+            </svg>              
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.7612 12.2654L22.3686 29.4508M22.3686 29.4508L23.3835 46.842M22.3686 29.4508L3.87585 44.4807M22.3686 29.4508L41.5705 29.0554M22.3686 29.4508L30.7041 1.36224M22.3686 29.4508L49.8115 41.4055M22.3686 29.4508L13.5292 48.8868M22.3686 29.4508L2.32579 14.527M22.3686 29.4508L39.2159 15.1677M22.3686 29.4508L6.09481 29.3393M22.3686 29.4508L34.721 49.1939" stroke="#8F8FFF" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.7612 12.2654L22.3686 29.4508M22.3686 29.4508L23.3835 46.842M22.3686 29.4508L3.87585 44.4807M22.3686 29.4508L41.5705 29.0554M22.3686 29.4508L30.7041 1.36224M22.3686 29.4508L49.8115 41.4055M22.3686 29.4508L13.5292 48.8868M22.3686 29.4508L2.32579 14.527M22.3686 29.4508L39.2159 15.1677M22.3686 29.4508L6.09481 29.3393M22.3686 29.4508L34.721 49.1939" stroke="#8F8FFF" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+          <div class="hero__marquee-row">
+            <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.7612 12.2654L22.3686 29.4508M22.3686 29.4508L23.3835 46.842M22.3686 29.4508L3.87585 44.4807M22.3686 29.4508L41.5705 29.0554M22.3686 29.4508L30.7041 1.36224M22.3686 29.4508L49.8115 41.4055M22.3686 29.4508L13.5292 48.8868M22.3686 29.4508L2.32579 14.527M22.3686 29.4508L39.2159 15.1677M22.3686 29.4508L6.09481 29.3393M22.3686 29.4508L34.721 49.1939" stroke="#8F8FFF" stroke-width="2.4"/>
+            </svg>
+            <div class="hero__marquee-row__text">
+              <span>
+                2023
+              </span>
+              <span>
+                black friday
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__limitations">
+          <p class="hero__limitations-text">
+            *Акция не распространяется на подключение опций, лимитов, которые были подключены ранее до 1.11.2023 Количество предложений ограничено
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__wrapper-top">
+        <h2 class="modal__title">
+          Регистрация
+        </h2>
+        <button class="modal__close" type="button">
+          <img 
+            alt="" 
+            src="./images/close.svg"
+            width="16" height="16"
+          >
+        </button>
+      </div>
+      <form 
+        id="registration-form"
+        method="POST"
+        class="modal__form" 
+        novalidate
+      >
+        <input
+          type="text" 
+          class="modal__form-input _req"
+          placeholder="Имя"
+          name="name"
+          autofocus
+        >
+        <input
+          type="text"
+          class="modal__form-input _req"
+          placeholder="Сайт компании"
+          name="site-company"
+        >
+        <input
+          class="modal__form-input _req"
+          type="tel" 
+          data-tel-input 
+          maxlength="18"
+          autocomplete="off"
+          required
+          name="tel"  
+          placeholder="Телефон"
+        >
+        <button class="primary-btn modal__form-btn" type="submit">
+          Получить код
+        </button>
+        <div class="modal__form-consent">
+          <div class="modal__form-checkbox">
+            <input 
+              class="modal__form-checkbox__input _req" 
+              type="checkbox" 
+              id="modal-form-checkbox"
+            >
+            <label class="modal__form-checkbox__label" for="modal-form-checkbox">
+              Отправляя сведения через электронную форму, вы даете согласие на обработку персональных данных, в том числе сбор, хранение и передачу третьим лицам представленной вами информации на условиях <a href="#">Политики обработки персональных данных.</a>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
